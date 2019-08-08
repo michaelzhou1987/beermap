@@ -5,6 +5,10 @@ this is a demo,
 code for backend of this demo:
 https://github.com/michaelzhou1987/beermap_backend
 
+
+depolyed on aws with docker
+http://18.191.138.17
+
 ## Available Scripts
 
 In the project directory, you can run:
