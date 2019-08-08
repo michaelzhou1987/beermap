@@ -1,0 +1,36 @@
+.form-wrapper {
+  &.container {
+    width: 80%;
+    max-width: 500px;
+  }
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    label {
+      padding-bottom: 15px;
+      display: block;
+    }
+    .form-control {
+      border: none;
+      outline: none;
+      width: 100%;
+      border-radius: 5px;
+      border: 1px solid #e5e5e5;
+      height: 35px;
+      text-indent: 0.5rem;
+      margin-bottom: 5px;
+      &.isAntd {
+        border: none;
+        text-indent: 0;
+      }
+    }
+    .ant-input {
+      height: 35px;
+    }
+  }
+}

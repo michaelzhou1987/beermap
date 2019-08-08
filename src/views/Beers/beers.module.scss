@@ -1,0 +1,19 @@
+.my-beers-wrapper {
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .my-beers-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    // justify-content: center;
+    @media (max-width: 575.98px) {
+      justify-content: center;
+    }
+  }
+  .button-wrapper {
+    margin-top: 10px;
+  }
+}
