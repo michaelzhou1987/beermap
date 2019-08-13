@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-this is a demo
+this is a quick full stack demo with React/Node/GraphQL/MongoDB
 
 code for backend of this demo:  
 
